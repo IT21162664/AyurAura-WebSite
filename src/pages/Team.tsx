@@ -3,6 +3,12 @@ import Section from '../components/ui/Section';
 import Heading from '../components/ui/Heading';
 import Card from '../components/ui/Card';
 import { Linkedin, Mail, Award, ExternalLink } from 'lucide-react';
+import jayathriImg from '../images/jayathri.png';
+import thyagiImg from '../images/thyagi.png';
+import poornaImg from '../images/poorna.png';
+import chirathImg from '../images/chirath.png';
+import pipuniImg from '../images/pipuni wijesiri.png';
+import thamaliImg from '../images/thamali dasanayake.png';
 
 const Team = () => {
   return (
@@ -19,7 +25,7 @@ const Team = () => {
           <Card className="overflow-hidden">
             <div className="aspect-square bg-gray-100 dark:bg-gray-800">
               <img 
-                src="/src/images/jayathri.png" 
+                src={jayathriImg} 
                 alt="Jayathri Weerasinghe" 
                 className="w-full h-full object-cover"
               />
@@ -48,7 +54,7 @@ const Team = () => {
           <Card className="overflow-hidden">
             <div className="aspect-square bg-gray-100 dark:bg-gray-800">
               <img 
-                src="/src/images/thyagi.png" 
+                src={thyagiImg} 
                 alt="Thyagi Jayathunge" 
                 className="w-full h-full object-cover"
               />
@@ -77,7 +83,7 @@ const Team = () => {
           <Card className="overflow-hidden">
             <div className="aspect-square bg-gray-100 dark:bg-gray-800">
               <img 
-                src="/src/images/poorna.png" 
+                src={poornaImg} 
                 alt="Poorna Manodya Gunasekera" 
                 className="w-full h-full object-cover"
               />
@@ -106,7 +112,7 @@ const Team = () => {
           <Card className="overflow-hidden">
             <div className="aspect-square bg-gray-100 dark:bg-gray-800">
               <img 
-                src="/src/images/chirath.png" 
+                src={chirathImg} 
                 alt="Chirath Wickramasinghe" 
                 className="w-full h-full object-cover"
               />
@@ -146,7 +152,7 @@ const Team = () => {
               <div className="md:w-1/3">
                 <div className="aspect-square bg-gray-100 dark:bg-gray-800 rounded-lg overflow-hidden">
                   <img 
-                    src="/src/images/pipuni wijesiri.png" 
+                    src={pipuniImg} 
                     alt="Dr. Pipuni Wijesiri" 
                     className="w-full h-full object-cover"
                   />
@@ -184,7 +190,7 @@ const Team = () => {
               <div className="md:w-1/3">
                 <div className="aspect-square bg-gray-100 dark:bg-gray-800 rounded-lg overflow-hidden">
                   <img 
-                    src="/src/images/thamali dasanayake.png" 
+                    src={thamaliImg} 
                     alt="Dr. Thamali Dasanayake" 
                     className="w-full h-full object-cover"
                   />
