@@ -69,17 +69,16 @@ const Downloads = () => {
                 <FileImage className="w-10 h-10 text-[#3d9942] dark:text-[#5eb468]" />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Research Poster</h3>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Journal Paper</h3>
                 <p className="text-gray-700 dark:text-gray-300 mb-6">
-                  A detailed academic poster summarizing our research methodology and key findings. (PDF, 2.1MB)
-                </p>
+                A journal article detailing our research objectives, methodology, results, and contributions to the field. (PDF, 3.4MB)</p>
                 <Button 
                   href="/path-to-poster.pdf" 
                   variant="outline"
                   download
                   icon={<Download size={18} />}
                 >
-                  Download Poster
+                  Download Journal
                 </Button>
               </div>
             </div>
@@ -91,9 +90,9 @@ const Downloads = () => {
                 <Database className="w-10 h-10 text-[#3d9942] dark:text-[#5eb468]" />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Sample Dataset</h3>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Final Report</h3>
                 <p className="text-gray-700 dark:text-gray-300 mb-6">
-                  Anonymized sample data from our research for academic and research purposes. (CSV, 1.3MB)
+                A comprehensive document outlining the full scope of our research project, including background, methodology, implementation, results, and conclusions. (PDF, 5.8MB)
                 </p>
                 <Button 
                   href="/path-to-dataset.csv" 
@@ -101,7 +100,7 @@ const Downloads = () => {
                   download
                   icon={<Download size={18} />}
                 >
-                  Download Dataset
+                  Download Final Report
                 </Button>
               </div>
             </div>
@@ -113,9 +112,9 @@ const Downloads = () => {
                 <FileText className="w-10 h-10 text-[#3d9942] dark:text-[#5eb468]" />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Publication List</h3>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Publications</h3>
                 <p className="text-gray-700 dark:text-gray-300 mb-6">
-                  Complete list of our published research papers and conference presentations. (PDF, 0.5MB)
+                  Published research papers and conference presentations. (PDF, 0.5MB)
                 </p>
                 <Button 
                   href="/path-to-publications.pdf" 
@@ -123,7 +122,7 @@ const Downloads = () => {
                   download
                   icon={<Download size={18} />}
                 >
-                  Download List
+                  Download Publications
                 </Button>
               </div>
             </div>
@@ -139,30 +138,31 @@ const Downloads = () => {
         />
         
         <Card className="p-8 max-w-3xl mx-auto">
-          <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">APA Format</h3>
+          <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Cite This</h3>
           <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg mb-6">
             <p className="text-gray-700 dark:text-gray-300 font-mono text-sm break-words">
-              Doe, J., Smith, J., Chen, D., Kumar, S., & Perera, R. (2024). AyurAura: Personalized Stress Management with Ayurvedic Creative Therapies and Artificial Intelligence. <em>Journal of Healthcare Informatics, 15</em>(2), 45-62. doi:10.1234/jhi.2024.12345
+            W. P. D. J. N. Weerasinghe, H. D. P. M. Gunasekera, B. G. W. M. C. R. Wickramasinghe, K. A. D. T. R. Jayathunge, P. Wijesiri and T. Dassanayake, "Developing Predictive Models for Future Stress Likelihood and Recovery Time Using Behavioral and Emotional Data," 2025 5th International Conference on Advanced Research in Computing (ICARC), Belihuloya, Sri Lanka, 2025, pp. 1-6, doi: 10.1109/ICARC64760.2025.10963043.
+  
             </p>
           </div>
           
-          <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">MLA Format</h3>
+          <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">DOI</h3>
           <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg mb-6">
             <p className="text-gray-700 dark:text-gray-300 font-mono text-sm break-words">
-              Doe, John, et al. "AyurAura: Personalized Stress Management with Ayurvedic Creative Therapies and Artificial Intelligence." <em>Journal of Healthcare Informatics</em>, vol. 15, no. 2, 2024, pp. 45-62.
+            10.1109/ICARC64760.2025.10963043
             </p>
           </div>
           
-          <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Chicago Format</h3>
+          <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Published in</h3>
           <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
             <p className="text-gray-700 dark:text-gray-300 font-mono text-sm break-words">
-              Doe, John, Jane Smith, David Chen, Sarah Kumar, and Ramesh Perera. 2024. "AyurAura: Personalized Stress Management with Ayurvedic Creative Therapies and Artificial Intelligence." <em>Journal of Healthcare Informatics</em> 15 (2): 45-62.
+            2025 5th International Conference on Advanced Research in Computing (ICARC)
             </p>
           </div>
         </Card>
       </Section>
       
-      <Section bgColor="default">
+      {/* <Section bgColor="default">
         <Heading 
           title="License Information" 
           subtitle="Terms of use for our research materials and datasets"
@@ -199,7 +199,7 @@ const Downloads = () => {
             </ul>
           </div>
         </Card>
-      </Section>
+      </Section> */}
     </>
   );
 };

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 
 interface SectionProps {
   children: React.ReactNode;
@@ -7,12 +7,12 @@ interface SectionProps {
   bgColor?: 'default' | 'alternate' | 'primary' | 'secondary';
 }
 
-const Section: React.FC<SectionProps> = ({
+const Section = forwardRef<HTMLElement, SectionProps>(({
   children,
   id,
   className = '',
   bgColor = 'default',
-}) => {
+}, ref) => {
   // Background color classes
   const bgClasses = {
     default: 'bg-white dark:bg-gray-900',
@@ -23,6 +23,7 @@ const Section: React.FC<SectionProps> = ({
 
   return (
     <section 
+      ref={ref}
       id={id} 
       className={`py-12 md:py-20 ${bgClasses[bgColor]} ${className}`}
     >
@@ -31,6 +32,8 @@ const Section: React.FC<SectionProps> = ({
       </div>
     </section>
   );
-};
+});
+
+Section.displayName = 'Section';
 
 export default Section;
