@@ -21,9 +21,9 @@ const Downloads = () => {
                 <FileText className="w-12 h-12 text-[#3d9942] dark:text-[#5eb468]" />
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Full Dissertation</h3>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Publications</h3>
                 <p className="text-gray-700 dark:text-gray-300 mb-6">
-                  Our comprehensive research paper detailing the methodology, implementation, results, and future directions of the AyurAura project. (PDF, 5.2MB)
+                  Published research papers and conference presentations. (PDF, 0.5MB)
                 </p>
                 <Button 
                   href="/path-to-dissertation.pdf" 
@@ -112,7 +112,7 @@ const Downloads = () => {
                 <FileText className="w-10 h-10 text-[#3d9942] dark:text-[#5eb468]" />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Publications</h3>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Proposals</h3>
                 <p className="text-gray-700 dark:text-gray-300 mb-6">
                   Published research papers and conference presentations. (PDF, 0.5MB)
                 </p>
