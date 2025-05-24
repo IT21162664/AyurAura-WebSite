@@ -11,6 +11,7 @@ import Commercialization from './pages/Commercialization';
 import Team from './pages/Team';
 import Downloads from './pages/Downloads';
 import Contact from './pages/Contact';
+import Publications from './pages/Publications';
 import { ThemeProvider } from './context/ThemeContext';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
             <Route path="/therapies" element={<Therapies />} />
             <Route path="/commercialization" element={<Commercialization />} />
             <Route path="/team" element={<Team />} />
+            <Route path="/publications" element={<Publications />} />
             <Route path="/downloads" element={<Downloads />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

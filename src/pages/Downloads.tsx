@@ -26,7 +26,7 @@ const Downloads = () => {
                   Published research papers and conference presentations. (PDF, 0.5MB)
                 </p>
                 <Button 
-                  href="/path-to-dissertation.pdf" 
+                  href="https://raw.githubusercontent.com/IT21162664/AyurAura-WebSite/090eb58958d3c5e32a587a73cfe5cca28c2e3a0a/Documents/published%20research/Developing%20Predictive%20Models%20for%20Future%20Stress%20Likelihood%20and%20Recovery%20Time.pdf" 
                   variant="primary"
                   download
                   icon={<Download size={18} />}
@@ -48,9 +48,8 @@ const Downloads = () => {
                   A visual presentation of our research findings and the AyurAura system, suitable for academic and professional audiences. (PPTX, 3.8MB)
                 </p>
                 <Button 
-                  href="/path-to-presentation.pptx" 
+                  href="https://github.com/IT21162664/AyurAura-WebSite/tree/main/Documents/presentation%20slides" 
                   variant="primary"
-                  download
                   icon={<Download size={18} />}
                 >
                   Download Presentation
@@ -63,70 +62,69 @@ const Downloads = () => {
       
       <Section bgColor="default">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <Card className="p-8">
-            <div className="flex items-start">
-              <div className="mr-4">
-                <FileImage className="w-10 h-10 text-[#3d9942] dark:text-[#5eb468]" />
-              </div>
-              <div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Journal Paper</h3>
-                <p className="text-gray-700 dark:text-gray-300 mb-6">
-                A journal article detailing our research objectives, methodology, results, and contributions to the field. (PDF, 3.4MB)</p>
-                <Button 
-                  href="/path-to-poster.pdf" 
-                  variant="outline"
-                  download
-                  icon={<Download size={18} />}
-                >
-                  Download Journal
-                </Button>
-              </div>
+        <Card className="p-8">
+          <div className="flex items-start">
+            <div className="mr-4">
+              <FileImage className="w-10 h-10 text-[#3d9942] dark:text-[#5eb468]" />
             </div>
-          </Card>
+            <div>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Journal Paper</h3>
+              <p className="text-gray-700 dark:text-gray-300 mb-6">
+                A journal article detailing our research objectives, methodology, results, and contributions to the field. (PDF, 3.4MB)
+              </p>
+              <Button 
+                href="https://raw.githubusercontent.com/IT21162664/AyurAura-WebSite/main/Documents/journal/AyurAura%20-%20Personalized%20Stress%20Management%20Application%20Using%20Ayurvedic%20Creative%20Therapies..pdf" 
+                variant="outline"
+                download
+                icon={<Download size={18} />}
+              >
+                Download Journal
+              </Button>
+            </div>
+          </div>
+        </Card>
           
-          <Card className="p-8">
-            <div className="flex items-start">
-              <div className="mr-4">
-                <Database className="w-10 h-10 text-[#3d9942] dark:text-[#5eb468]" />
-              </div>
-              <div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Final Report</h3>
-                <p className="text-gray-700 dark:text-gray-300 mb-6">
+        <Card className="p-8">
+          <div className="flex items-start">
+            <div className="mr-4">
+              <Database className="w-10 h-10 text-[#3d9942] dark:text-[#5eb468]" />
+            </div>
+            <div>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Final Report</h3>
+              <p className="text-gray-700 dark:text-gray-300 mb-6">
                 A comprehensive document outlining the full scope of our research project, including background, methodology, implementation, results, and conclusions. (PDF, 5.8MB)
-                </p>
-                <Button 
-                  href="/path-to-dataset.csv" 
-                  variant="outline"
-                  download
-                  icon={<Download size={18} />}
-                >
-                  Download Final Report
-                </Button>
-              </div>
+              </p>
+              <Button 
+                href="https://github.com/IT21162664/AyurAura-WebSite/tree/main/Documents/final%20reports" 
+                variant="outline"
+                icon={<Download size={18} />}
+              >
+                Download Final Report
+              </Button>
             </div>
-          </Card>
+          </div>
+        </Card>
           
-          <Card className="p-8">
-            <div className="flex items-start">
-              <div className="mr-4">
-                <FileText className="w-10 h-10 text-[#3d9942] dark:text-[#5eb468]" />
-              </div>
-              <div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Proposals</h3>
-                <p className="text-gray-700 dark:text-gray-300 mb-6">
-                  Published research papers and conference presentations. (PDF, 0.5MB)
-                </p>
-                <Button 
-                  href="/path-to-publications.pdf" 
-                  variant="outline"
-                  download
-                  icon={<Download size={18} />}
-                >
-                  Download Publications
-                </Button>
-              </div>
+        <Card className="p-8">
+          <div className="flex items-start">
+            <div className="mr-4">
+              <FileText className="w-10 h-10 text-[#3d9942] dark:text-[#5eb468]" />
             </div>
-          </Card>
+            <div>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Proposals</h3>
+              <p className="text-gray-700 dark:text-gray-300 mb-6">
+                Published research papers and conference presentations. (PDF, 0.5MB)
+              </p>
+              <Button 
+                href="https://github.com/IT21162664/AyurAura-WebSite/tree/main/Documents/proposal" 
+                variant="outline"
+                icon={<Download size={18} />}
+              >
+                Download Publications
+              </Button>
+            </div>
+          </div>
+        </Card>
         </div>
       </Section>
       
@@ -162,44 +160,6 @@ const Downloads = () => {
         </Card>
       </Section>
       
-      {/* <Section bgColor="default">
-        <Heading 
-          title="License Information" 
-          subtitle="Terms of use for our research materials and datasets"
-        />
-        
-        <Card className="p-8 max-w-3xl mx-auto">
-          <div className="mb-8">
-            <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Research Publication</h3>
-            <p className="text-gray-700 dark:text-gray-300 mb-4">
-              Our research papers and publications are shared under a Creative Commons Attribution 4.0 International License (CC BY 4.0). This means you are free to:
-            </p>
-            <ul className="list-disc pl-6 text-gray-700 dark:text-gray-300 space-y-2">
-              <li>Share — copy and redistribute the material in any medium or format</li>
-              <li>Adapt — remix, transform, and build upon the material for any purpose, even commercially</li>
-            </ul>
-            <p className="text-gray-700 dark:text-gray-300 mt-4">
-              Under the following terms:
-            </p>
-            <ul className="list-disc pl-6 text-gray-700 dark:text-gray-300 space-y-2 mt-2">
-              <li>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made</li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Sample Dataset</h3>
-            <p className="text-gray-700 dark:text-gray-300 mb-4">
-              The sample dataset is provided for academic and research purposes only under the following conditions:
-            </p>
-            <ul className="list-disc pl-6 text-gray-700 dark:text-gray-300 space-y-2">
-              <li>The dataset may be used for non-commercial research and educational purposes only</li>
-              <li>Any publications resulting from the use of this dataset must cite our original research</li>
-              <li>The dataset may not be redistributed without permission</li>
-              <li>The dataset has been fully anonymized to protect user privacy</li>
-            </ul>
-          </div>
-        </Card>
-      </Section> */}
     </>
   );
 };
