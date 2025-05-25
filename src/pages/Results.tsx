@@ -2,6 +2,10 @@ import React from 'react';
 import Section from '../components/ui/Section';
 import Heading from '../components/ui/Heading';
 import Card from '../components/ui/Card';
+import stressAnalysisImg from '../images/stressanalysis.png';
+import artAndMusicImg from '../images/mandala.png';
+import stressPredictorImg from '../images/stresspredict.png';
+import recoveryPredictImg from '../images/recoverypredict.png';
 
 const Results = () => {
   return (
@@ -92,13 +96,15 @@ const Results = () => {
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <Card className="overflow-hidden">
-            <div className="aspect-[9/16] bg-gray-100 dark:bg-gray-800 flex items-center justify-center">
-              <p className="text-gray-700 dark:text-gray-300 p-4 text-center italic">
-                Home screen screenshot would be displayed here
-              </p>
+            <div className="w-[288px] h-[640px] bg-gray-100 dark:bg-gray-800 flex items-center justify-center mx-auto mt-2">
+              <img 
+                src={stressAnalysisImg} 
+                alt="Eye Stress Analysis"
+                className="w-[288px] h-[640px] object-cover"
+              />
             </div>
             <div className="p-4">
-              <h4 className="font-semibold text-gray-900 dark:text-white">Home Dashboard</h4>
+              <h4 className="font-semibold text-gray-900 dark:text-white">Eye Stress Analysis</h4>
               <p className="text-sm text-gray-600 dark:text-gray-400">
                 Real-time stress metrics and activity recommendations
               </p>
@@ -106,13 +112,15 @@ const Results = () => {
           </Card>
           
           <Card className="overflow-hidden">
-            <div className="aspect-[9/16] bg-gray-100 dark:bg-gray-800 flex items-center justify-center">
-              <p className="text-gray-700 dark:text-gray-300 p-4 text-center italic">
-                Mandala therapy screenshot would be displayed here
-              </p>
+            <div className="w-[288px] h-[640px] bg-gray-100 dark:bg-gray-800 flex items-center justify-center mx-auto mt-2">
+              <img 
+                src={artAndMusicImg} 
+                alt="Art & Music Therapy"
+                className="w-[288px] h-[640px] object-cover"
+              />
             </div>
             <div className="p-4">
-              <h4 className="font-semibold text-gray-900 dark:text-white">Mandala Therapy</h4>
+              <h4 className="font-semibold text-gray-900 dark:text-white">Art & Music Therapy</h4>
               <p className="text-sm text-gray-600 dark:text-gray-400">
                 Interactive mandala drawing with real-time guidance
               </p>
@@ -120,13 +128,15 @@ const Results = () => {
           </Card>
           
           <Card className="overflow-hidden">
-            <div className="aspect-[9/16] bg-gray-100 dark:bg-gray-800 flex items-center justify-center">
-              <p className="text-gray-700 dark:text-gray-300 p-4 text-center italic">
-                Music therapy screenshot would be displayed here
-              </p>
+            <div className="w-[288px] h-[640px] bg-gray-100 dark:bg-gray-800 flex items-center justify-center mx-auto mt-2">
+              <img 
+                src={stressPredictorImg} 
+                alt="Stress Predictor"
+                className="w-[288px] h-[640px] object-cover"
+              />
             </div>
             <div className="p-4">
-              <h4 className="font-semibold text-gray-900 dark:text-white">Raga Therapy</h4>
+              <h4 className="font-semibold text-gray-900 dark:text-white">Stress Predictor</h4>
               <p className="text-sm text-gray-600 dark:text-gray-400">
                 Personalized music selections with mood tracking
               </p>
@@ -134,13 +144,15 @@ const Results = () => {
           </Card>
           
           <Card className="overflow-hidden">
-            <div className="aspect-[9/16] bg-gray-100 dark:bg-gray-800 flex items-center justify-center">
-              <p className="text-gray-700 dark:text-gray-300 p-4 text-center italic">
-                Progress tracking screenshot would be displayed here
-              </p>
+            <div className="w-[288px] h-[640px] bg-gray-100 dark:bg-gray-800 flex items-center justify-center mx-auto mt-2">
+              <img 
+                src={recoveryPredictImg} 
+                alt="Stress Recovery Prediction"
+                className="w-[288px] h-[640px] object-cover"
+              />
             </div>
             <div className="p-4">
-              <h4 className="font-semibold text-gray-900 dark:text-white">Progress Tracking</h4>
+              <h4 className="font-semibold text-gray-900 dark:text-white">Stress Recovery Prediction</h4>
               <p className="text-sm text-gray-600 dark:text-gray-400">
                 Visualizations of stress reduction over time
               </p>

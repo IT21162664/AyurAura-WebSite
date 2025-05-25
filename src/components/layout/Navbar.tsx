@@ -12,7 +12,6 @@ const navigation = [
   { name: 'Therapies', href: '/therapies' },
   { name: 'Commercialization', href: '/commercialization' },
   { name: 'Team', href: '/team' },
-  { name: 'Publications', href: '/publications' },
   { name: 'Downloads', href: '/downloads' },
   { name: 'Contact', href: '/contact' },
 ];
