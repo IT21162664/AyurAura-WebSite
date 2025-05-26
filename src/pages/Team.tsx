@@ -321,13 +321,13 @@ const Team = () => {
           centered
         />
         
-        <div className="flex justify-center mb-10">
+        {/* <div className="flex justify-center mb-10">
           <div className="w-40 h-40 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center">
             <p className="text-gray-700 dark:text-gray-300 p-4 text-center italic">
               SLIIT logo would be displayed here
             </p>
           </div>
-        </div>
+        </div> */}
         
         <Card className="p-8 max-w-3xl mx-auto text-center">
           <p className="text-gray-700 dark:text-gray-300 mb-6">
