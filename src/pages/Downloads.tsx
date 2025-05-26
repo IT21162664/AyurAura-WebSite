@@ -112,15 +112,15 @@ const Downloads = () => {
             </div>
             <div>
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Proposals</h3>
-              <p className="text-gray-700 dark:text-gray-300 mb-6">
+              {/* <p className="text-gray-700 dark:text-gray-300 mb-6">
                 Published research papers and conference presentations. (PDF, 0.5MB)
-              </p>
+              </p> */}
               <Button 
                 href="https://github.com/IT21162664/AyurAura-WebSite/tree/main/Documents/proposal" 
                 variant="outline"
                 icon={<Download size={18} />}
               >
-                Download Publications
+                Download Proposals
               </Button>
             </div>
           </div>

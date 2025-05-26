@@ -198,42 +198,30 @@ const Research = () => {
           centered
         />
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          <Card className="p-8">
-            <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">System Flow Diagram</h3>
-            <div className="bg-gray-100 dark:bg-gray-800 p-8 rounded-lg mb-4 text-center">
-              <p className="text-gray-700 dark:text-gray-300 italic">
-                System flow diagram would be displayed here, showing data collection, processing, model inference, and feedback loops.
-              </p>
-            </div>
-            <p className="text-gray-700 dark:text-gray-300">
-              The system employs a continuous feedback loop where user interactions and responses to interventions are used to refine future predictions and recommendations, creating an increasingly personalized experience over time.
-            </p>
-          </Card>
-          
+        <div className="max-w-3xl mx-auto">
           <Card className="p-8">
             <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Model Architecture</h3>
-            <div className="bg-gray-100 dark:bg-gray-800 p-8 rounded-lg mb-4 text-center">
+            {/* <div className="bg-gray-100 dark:bg-gray-800 p-8 rounded-lg mb-4 text-center">
               <p className="text-gray-700 dark:text-gray-300 italic">
                 Model architecture diagram would be displayed here, showing the structure of the Random Forest model for stress prediction.
               </p>
-            </div>
+            </div> */}
             <p className="text-gray-700 dark:text-gray-300">
               The Random Forest model for future stress prediction utilizes 100 decision trees with a maximum depth of 15, trained on a feature set that includes behavioral patterns, historical stress data, activity logs, and demographic information.
             </p>
           </Card>
         </div>
         
-        <div className="mt-10 text-center">
+        {/* <div className="mt-10 text-center">
           <Button 
-            href="/path-to-research-paper.pdf" 
+            href="/Documents/published research/Developing Predictive Models for Future Stress Likelihood and Recovery Time.pdf" 
             variant="primary"
             download
             icon={<Download size={18} />}
           >
             Download Full Research Paper
           </Button>
-        </div>
+        </div> */}
       </Section>
     </>
   );

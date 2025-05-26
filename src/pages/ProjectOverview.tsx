@@ -27,7 +27,7 @@ const ProjectOverview = () => {
               <p className="text-gray-700 dark:text-gray-300 mb-6">
                 By integrating real-time stress detection, future prediction, and personalized therapy recommendations, AyurAura provides a comprehensive solution that evolves with the user, offering increasingly accurate and effective stress management strategies over time.
               </p>
-              <div className="flex justify-start">
+              {/* <div className="flex justify-start">
                 <Button 
                   href="/path-to-research-paper.pdf" 
                   variant="primary"
@@ -36,7 +36,7 @@ const ProjectOverview = () => {
                 >
                   Download Full Research Paper
                 </Button>
-              </div>
+              </div> */}
             </Card>
           </div>
           

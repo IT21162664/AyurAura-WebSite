@@ -46,11 +46,7 @@ const Results = () => {
               <li>Robust performance with relatively small training datasets</li>
               <li>Resistance to overfitting through ensemble methodology</li>
             </ul>
-            <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg text-center">
-              <p className="text-gray-700 dark:text-gray-300 italic">
-                Confusion matrix visualization would be displayed here.
-              </p>
-            </div>
+            
           </Card>
           
           <Card className="p-8">
@@ -79,11 +75,7 @@ const Results = () => {
             <p className="text-gray-700 dark:text-gray-300 mb-4">
               Fine-tuning the pre-trained VGG16 architecture with transfer learning significantly improved performance compared to training from scratch, particularly given the limited size of our specialized dataset.
             </p>
-            <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg text-center">
-              <p className="text-gray-700 dark:text-gray-300 italic">
-                Classification report visualization would be displayed here.
-              </p>
-            </div>
+            
           </Card>
         </div>
       </Section>
@@ -171,11 +163,7 @@ const Results = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Stress Reduction Efficacy</h3>
-              <div className="bg-gray-100 dark:bg-gray-800 p-8 rounded-lg mb-4 text-center">
-                <p className="text-gray-700 dark:text-gray-300 italic">
-                  Line chart showing stress reduction over 4 weeks would be displayed here.
-                </p>
-              </div>
+              
               <p className="text-gray-700 dark:text-gray-300">
                 In a 4-week controlled study with 45 participants, AyurAura users experienced a 37% greater reduction in perceived stress levels compared to the control group using generic stress management techniques.
               </p>
